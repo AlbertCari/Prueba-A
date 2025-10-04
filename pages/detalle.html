@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Detalle del recurso</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="../assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <script defer src="../js/main.js"></script>
+</head>
+<body class="detail">
+  <header class="topbar">
+    <button class="nav-btn back" onclick="history.back()" title="Regresar" aria-label="Regresar">←</button>
+    <a class="brand" href="../index.html" aria-label="Inicio">
+      <img src="../assets/images/logo-320.png" alt="Escuela Activa" />
+    </a>
+    <a class="nav-btn home" href="../index.html" title="Casa" aria-label="Casa">🏠</a>
+  </header>
+
+  <div class="page page--with-bg">
+    <main class="container narrow">
+      <h1 class="title">Recursos educativos</h1>
+
+      <article class="resource">
+        <div class="resource__media">
+          <img src="../assets/images/placeholders/cover-portrait.png" alt="Portada del recurso">
+        </div>
+
+        <div class="resource__content">
+          <h2>Descripción</h2>
+          <p>
+            Texto de ejemplo del recurso. Aquí podrás colocar sinopsis, competencias, materiales, etc.
+          </p>
+
+          <!-- Cambia data-aspect según el formato del video -->
+          <div class="video-frame" data-video="E2eD9cNzc7Y" data-aspect="16:9"></div>
+
+          <div class="actions" style="margin-top:16px;">
+            <a class="btn" href="inicial.html">↩ Volver a Inicial</a>
+            <a class="btn" href="../index.html">🏠 Ir a la portada</a>
+          </div>
+        </div>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
