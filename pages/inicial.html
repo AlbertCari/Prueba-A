@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Inicial 2026 – Escuela Activa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Preconexiones (si usas YouTube en otras páginas) -->
+  <link rel="preconnect" href="https://www.youtube-nocookie.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
+  <link rel="preconnect" href="https://www.google.com">
+
+  <link rel="icon" href="../assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <script defer src="../js/main.js"></script>
+</head>
+<body class="propuesta">
+  <header class="topbar">
+    <button class="nav-btn back" onclick="history.back()" title="Regresar" aria-label="Regresar">←</button>
+    <a class="brand" href="../index.html" aria-label="Inicio">
+      <img src="../assets/images/logo-320.png" alt="Escuela Activa" />
+    </a>
+    <a class="nav-btn home" href="../index.html" title="Casa" aria-label="Casa">🏠</a>
+  </header>
+
+  <!-- El fondo se aplica a .page.page--with-bg -->
+  <div class="page page--with-bg">
+    <main class="container narrow">
+      <h1 class="title">Libros para INICIAL 2026</h1>
+
+      <!-- ===== GRUPOS VISIBLES ===== -->
+      <section class="niveles-grid" aria-label="Grupos por edad">
+        <!-- Grupo: Niño (azul) -->
+        <article class="nivel-card nivel-card--boy" id="grupo-nino">
+          <div class="nivel-media">
+            <img class="brand-img" src="../assets/images/jugando-creamos.png" alt="Jugando creamos — Niño">
+          </div>
+          <header class="nivel-head">
+            <h2>Jugando creamos — Niño</h2>
+            <p class="nivel-desc">Selección de materiales por edades.</p>
+          </header>
+          <nav class="edad-group" aria-label="Edades Niño">
+            <a class="btn btn--blue" href="./inicial/2anios.html">2 años (Niño)</a>
+            <a class="btn btn--blue" href="./inicial/3anios.html">3 años (Niño)</a>
+            <a class="btn btn--blue" href="./inicial/4anios.html">4 años (Niño)</a>
+            <a class="btn btn--blue" href="./inicial/5anios.html">5 años (Niño)</a>
+          </nav>
+        </article>
+
+        <!-- Grupo: Niña (rojo) -->
+        <article class="nivel-card nivel-card--girl" id="grupo-nina">
+          <div class="nivel-media">
+            <img class="brand-img" src="../assets/images/lalito.png" alt="Lalito — Niña">
+          </div>
+          <header class="nivel-head">
+            <h2>Lalito — Niña</h2>
+            <p class="nivel-desc">Selección por edad para Inicial.</p>
+          </header>
+          <nav class="edad-group" aria-label="Edades Niña">
+            <a class="btn btn--red" href="./inicial/5anios.html">5 años (Niña)</a>
+          </nav>
+        </article>
+      </section>
+
+      <!-- Si tienes más secciones aquí, se mantienen; no son necesarias para el enrutado -->
+      <div class="cta-wrap" style="margin-top:24px;">
+        <a class="btn" href="../index.html">🏠 Regresar a la portada</a>
+        <a class="btn btn--primary" href="./propuesta-inicial.html">Propuesta pedagógica</a>
+      </div>
+    </main>
+  </div>
+
+  <noscript>
+    <div class="video-fallback" style="margin-top:20px;">
+      Este catálogo aprovecha funciones interactivas. Activa JavaScript para ver todos los contenidos.
+    </div>
+  </noscript>
+</body>
+</html>
